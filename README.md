@@ -12,7 +12,13 @@ Summary :
                         6 * 2
                         5 4 3
             
-            This script solves the puzzle using Depth First Search (DFS), Iterative Depth Limited Search (IDS), and A* using two different heuristic functions.
+            This script solves the puzzle using Depth First Search (DFS), Iterative Depth Limited Search (IDS), or A* using two different heuristic functions.
+            
+            The two heuristic functions are:
+                        1. The total difference in value of the individual cells vs the goal state cells
+                        2. The total distance from the values' current positions to their goal positions
+                        
+            The puzzle can be solved by swapping * with nearby numbers until the goal state is reached.
             
             For example:
             Input: 7 1 * 6 8 2 5 4 3
@@ -20,7 +26,7 @@ Summary :
                                     * 8 2
                                     5 4 3
             
-            The puzzle can be solved by swapping * with nearby numbers until the goal state is reached
+            
             
             Output:
                                     7 1 * 
