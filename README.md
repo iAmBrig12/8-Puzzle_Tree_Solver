@@ -4,8 +4,6 @@ Author :            Brigham Thornock
 
 Class :             CS 4365.002
 
-Last Modification : 2/9/2023
-
 Summary :   
 
             This script will take a file input of line of numbers representing an 8 puzzle.
