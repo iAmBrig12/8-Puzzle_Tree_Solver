@@ -23,7 +23,9 @@ Summary :
             
             This script solves the puzzle using Depth First Search (DFS), Iterative Depth Limited Search (IDS), and A* using two different heuristic functions.
             
-Usage:      python assignment_1.py <algorithm> <input_file>
+Usage:      
+            
+            python assignment_1.py <algorithm> <input_file>
             
             Where <algorithm> is dfs, ids, astar1, or astar2 and <input_file> is the file used for puzzle start state in one line
 
