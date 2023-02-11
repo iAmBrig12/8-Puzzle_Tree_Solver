@@ -6,7 +6,9 @@ Class :             CS 4365.002
 
 Last Modification : 2/9/2023
 
-Summary :   This script will take a file input of line of numbers representing an 8 puzzle.
+Summary :   
+
+            This script will take a file input of line of numbers representing an 8 puzzle.
 
             For example:
             Input: 7 1 * 6 8 2 5 4 3
