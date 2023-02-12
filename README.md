@@ -16,8 +16,24 @@ Summary :
             
             The two heuristic functions are:
                         1. The total difference in value of the individual cells vs the goal state cells
+                           Note: * is evaluated as 9
+                                    For example: 
+                                                current state = 7 6 1       goal state = 7 8 1
+                                                                * 8 2                    6 * 2
+                                                                5 4 3                    5 4 3
+                                                             
+                                                h(current state) = |7-7| + |8-6| + |1-1| + ...
+                                                                 = 0 + 2 + 0 + ...
+                                                                 = 6
+                                                                 
                         2. The total distance from the values' current positions to their goal positions
-                        
+                                    For example:
+                                                current state = 7 6 1       goal state = 7 8 1
+                                                                * 8 2                    6 * 2
+                                                                5 4 3                    5 4 3
+                                             
+                                                h(current state) = sqrt((0-0)^2 + (0-0)^2) + sqrt((1-0)^2 + (0-1)^2) + ...
+             
             The puzzle can be solved by swapping * with nearby numbers until the goal state is reached.
             
             For example:
