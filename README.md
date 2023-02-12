@@ -2,6 +2,8 @@
 ## 8 Puzzle Solver Using DFS, IDS, and A* Algorithms
             
 Usage:      
+
+            Run command line argument:
             
             python assignment_1.py <algorithm> <input_file>
             
