@@ -1,5 +1,4 @@
-# CS-4365-Assignment-1
-## 8 Puzzle Solver Using DFS, IDS, and A* Algorithms
+# 8 Puzzle Solver Using DFS, IDS, and A* Algorithms
             
 Usage:      
 
